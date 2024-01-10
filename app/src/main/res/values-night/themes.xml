@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Samatha" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+
+        <!-- Colores primarios de la marca -->
+        <item name="colorPrimary">@color/violeta_marca</item>
+        <item name="colorPrimaryVariant">@color/violeta_marca</item>
+        <item name="colorOnPrimary">@color/black</item>
+
+        <!-- Colores secundarios de la marca -->
+        <item name="colorSecondary">@color/turquesa_marca</item>
+        <item name="colorSecondaryVariant">@color/turquesa_marca</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+    </style>
+</resources>
