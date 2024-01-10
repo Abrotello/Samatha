@@ -4,8 +4,8 @@
     <color name="white">#FFFFFFFF</color>
     
     <!-- Colores primarios -->
-    <color name="turquesa_marca">#40C1AC</color>
     <color name="violeta_marca">#5C21A6</color>
+    <color name="turquesa_marca">#40C1AC</color>
 
     <!-- Colores secundarios -->
     <color name="azul_fondo">#E1FEFF</color>

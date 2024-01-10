@@ -5,9 +5,14 @@
     <string name="descripcion">Logotipo Samatha</string>
     <string name="iniciar">Iniciar sesión</string>
     <string name="email">Email</string>
+    <string name="mailExample">example@example.com</string>
     <string name="contrasena">Contraseña</string>
+    <string name="contrasenaExample">*********</string>
+    <string name="entrar">Entrar</string>
     <string name="registro">Registrarse</string>
     <string name="cuentas">Regístrate con tus cuentas</string>
+    <string name="google">Iniciar sesión con Google</string>
+    <string name="facebook">Iniciar sesión con Facebook</string>
     <string name="olvidar">¿Olvidaste tu contraseña?</string>
 
     <!-- Pantalla meditacion -->
