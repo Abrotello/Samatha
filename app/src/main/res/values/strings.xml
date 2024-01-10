@@ -3,6 +3,8 @@
 
     <!-- Pantalla inicio sesion -->
     <string name="descripcion">Logotipo Samatha</string>
+    <string name="descripcionGoogle">Logotipo Google</string>
+    <string name="descripcionFacebook">Logotipo Facebook</string>
     <string name="iniciar">Iniciar sesión</string>
     <string name="email">Email</string>
     <string name="mailExample">example@example.com</string>
@@ -10,7 +12,7 @@
     <string name="contrasenaExample">*********</string>
     <string name="entrar">Entrar</string>
     <string name="registro">Registrarse</string>
-    <string name="cuentas">Regístrate con tus cuentas</string>
+    <string name="cuentas">O regístrate con tus cuentas</string>
     <string name="google">Google</string>
     <string name="facebook">Facebook</string>
     <string name="olvidar">¿Olvidaste tu contraseña?</string>

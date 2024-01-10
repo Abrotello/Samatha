@@ -10,26 +10,25 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:gravity="start"
         android:orientation="vertical"
-        android:gravity="start">
+        tools:ignore="UselessParent">
 
         <LinearLayout
 
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
             android:gravity="center"
             android:orientation="vertical"
-            android:padding="10dp">
+            android:padding="0dp"
+            tools:ignore="UseCompoundDrawables">
 
             <ImageView
-                android:layout_width="180dp"
-                android:layout_height="180dp"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
                 android:contentDescription="@string/descripcion"
                 android:src="@drawable/logotipo" />
-
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="20dp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -45,164 +44,203 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
             android:orientation="vertical"
             android:paddingStart="30dp"
-            android:paddingEnd="30dp"
-            android:padding="20dp">
+            android:paddingEnd="30dp">
 
             <!-- Email -->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/email"
                 android:fontFamily="sans-serif-condensed"
+                android:text="@string/email"
                 android:textColor="@color/black"
                 android:textSize="25sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="@string/mailExample"
+                android:autofillHints="emailAddress"
                 android:fontFamily="sans-serif-condensed"
-                android:textColor="@color/black"
-                android:textSize="20sp"
+                android:hint="@string/mailExample"
                 android:inputType="textEmailAddress"
-                android:autofillHints="emailAddress"/>
-            
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
             <Space
                 android:layout_width="wrap_content"
-                android:layout_height="5dp"/>
+                android:layout_height="10dp" />
 
             <!-- Contrasena -->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/contrasena"
                 android:fontFamily="sans-serif-condensed"
+                android:text="@string/contrasena"
                 android:textColor="@color/black"
                 android:textSize="25sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="@string/contrasenaExample"
+                android:autofillHints="password"
                 android:fontFamily="sans-serif-condensed"
-                android:textColor="@color/black"
-                android:textSize="20sp"
+                android:hint="@string/contrasenaExample"
                 android:inputType="textPassword"
-                android:autofillHints="password"/>
+                android:textColor="@color/black"
+                android:textSize="20sp" />
 
             <Space
                 android:layout_width="wrap_content"
-                android:layout_height="20dp"/>
+                android:layout_height="25dp" />
 
             <!-- Boton -->
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-condensed"
-                android:text="@string/entrar"
-                android:textSize="20sp"
-                app:cornerRadius="0dp"
-                android:padding="10dp"
                 android:background="@color/violeta_marca"
+                android:fontFamily="sans-serif-condensed"
+                android:padding="10dp"
+                android:text="@string/entrar"
                 android:textAllCaps="false"
-                android:textColor="@color/white"/>
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:cornerRadius="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:clickable="true"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/registro"
+                android:textColor="#9A21B2"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/olvidar"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
         </LinearLayout>
 
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
             android:orientation="vertical"
-            android:padding="15dp"
-            android:gravity="center_horizontal">
+            android:padding="0dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:padding="5dp">
+                android:padding="0dp">
 
                 <TextView
-                    android:textAlignment="center"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:clickable="false"
                     android:fontFamily="sans-serif-condensed"
-                    android:text="@string/cuentas"
-                    android:textSize="25sp"
                     android:padding="10dp"
+                    android:text="@string/cuentas"
+                    android:textAlignment="center"
                     android:textColor="@color/black"
-                    android:clickable="false"/>
+                    android:textSize="23sp" />
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:padding="20dp">
+                android:padding="10dp"
+                android:gravity="center_horizontal">
 
-                <Button
-                    style="@style/Widget.AppCompat.Button.Borderless"
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-condensed"
-                    android:text="@string/google"
-                    android:textAllCaps="false"
-                    android:textSize="20sp"
-                    android:background="@color/white"
-                    android:paddingStart="25dp"
-                    android:paddingEnd="25dp"/>
+                    android:background="@drawable/btn_google"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp">
+
+
+                    <ImageButton
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:background="@drawable/google"
+                        android:contentDescription="@string/descripcionGoogle" />
+
+                    <Button
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="@string/google"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
 
 
                 <Space
                     android:layout_width="20dp"
-                    android:layout_height="match_parent"/>
+                    android:layout_height="match_parent" />
 
-                <Button
+                <LinearLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:fontFamily="sans-serif-condensed"
-                    android:text="@string/facebook"
-                    android:textAllCaps="false"
-                    android:textSize="20sp"
-                    android:textColor="@color/white"
-                    android:background="#414BB2"
-                    android:paddingStart="25dp"
-                    android:paddingEnd="25dp"/>
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_facebook"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp">
+
+
+                    <ImageButton
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:background="@drawable/facebook"
+                        android:contentDescription="@string/descripcionFacebook" />
+
+                    <Button
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="@string/facebook"
+                        android:textAllCaps="false"
+                        android:textSize="20sp"
+                        android:textColor="@color/white"/>
+
+                </LinearLayout>
 
             </LinearLayout>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:gravity="center_horizontal">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-condensed"
-                android:text="@string/registro"
-                android:textSize="22sp"
-                android:textStyle="bold"
-                android:textColor="@color/lila_fondo"
-                android:layout_marginBottom="10dp"
-                android:clickable="true"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-condensed"
-                android:text="@string/olvidar"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:clickable="true"/>
-
         </LinearLayout>
 
     </LinearLayout>
