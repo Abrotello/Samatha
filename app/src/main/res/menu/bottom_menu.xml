@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/btn_home"
+        android:title="@string/inicio"
+        android:visible="true"/>
+
+    <item
+        android:id="@+id/nav_meditate"
+        android:icon="@drawable/btn_meditate"
+        android:title="@string/meditar"
+        android:visible="true"/>
+
+    <item
+        android:id="@+id/nav_music"
+        android:icon="@drawable/btn_music"
+        android:title="@string/musica"
+        android:visible="true"/>
+
+    <item
+        android:id="@+id/nav_chat"
+        android:icon="@drawable/btn_chat"
+        android:title="@string/chat"
+        android:visible="true"/>
+
+    <item
+        android:id="@+id/nav_contacto"
+        android:icon="@drawable/btn_phone"
+        android:title="@string/contacto"
+        android:visible="true"/>
+</menu>

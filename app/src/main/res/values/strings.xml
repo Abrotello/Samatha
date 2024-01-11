@@ -17,6 +17,28 @@
     <string name="facebook">Facebook</string>
     <string name="olvidar">¿Olvidaste tu contraseña?</string>
 
-    <!-- Pantalla meditacion -->
+    <!-- Iconos -->
+    <string name="inicio">Inicio</string>
+    <string name="meditar">Meditar</string>
+    <string name="musica">Música</string>
+    <string name="chat">Chat Zen</string>
+    <string name="contacto">Contacto</string>
+
+    <!-- Inicio -->
+    <string name="titulo_Inicio">INICIO</string>
+
+    <!-- Meditacion -->
+    <string name="titulo_Meditacion">MEDITACION</string>
+
+    <!-- Musica -->
+    <string name="titulo_Musica">MUSICA</string>
+
+    <!-- ChatZen -->
+    <string name="titulo_Chat">CHAT ZEN</string>
+
+    <!-- Contacto -->
+    <string name="titulo_Contacto">CONTACTO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
